@@ -39,6 +39,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D3A47D32932470E00CFAF81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E654D96521C03DB500B78246 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1D3A47D42932471900CFAF81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6814C4721C40F0400AB41F4 /* Nose.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D3A47D52932473100CFAF81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E654D96C21C03DB600B78246 /* LaunchScreen.storyboard */,
+				E654D96721C03DB500B78246 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D3A47D62932474C00CFAF81 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E6814C4521C3DBE000AB41F4 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		E654D95721C03DB500B78246 = {
 			isa = PBXGroup;
 			children = (
@@ -59,12 +92,11 @@
 			isa = PBXGroup;
 			children = (
 				E654D96321C03DB500B78246 /* AppDelegate.swift */,
-				E654D96521C03DB500B78246 /* ViewController.swift */,
-				E6814C4721C40F0400AB41F4 /* Nose.swift */,
-				E6814C4521C3DBE000AB41F4 /* Extensions.swift */,
-				E654D96721C03DB500B78246 /* Main.storyboard */,
+				1D3A47D42932471900CFAF81 /* Model */,
+				1D3A47D52932473100CFAF81 /* Views */,
+				1D3A47D32932470E00CFAF81 /* Controllers */,
+				1D3A47D62932474C00CFAF81 /* Helpers */,
 				E654D96A21C03DB600B78246 /* Assets.xcassets */,
-				E654D96C21C03DB600B78246 /* LaunchScreen.storyboard */,
 				E654D96F21C03DB600B78246 /* Info.plist */,
 			);
 			path = FaceVideo;
